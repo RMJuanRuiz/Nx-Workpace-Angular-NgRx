@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Store } from '@ngrx/store';
-import { PoiActions, PoiSelectors } from '@rm-company/poi';
+import { PoiActions, PoiEntity, PoiSelectors } from '@rm-company/poi';
 
 @Component({
   selector: 'rm-company-poi-list',
@@ -14,5 +14,9 @@ export class PoiListComponent implements OnInit {
 
   ngOnInit(): void {
     this.store.dispatch(PoiActions.initPoi());
+  }
+
+  selectPoi(poi: PoiEntity) {
+    this.store.dispatch(PoiActions.selectPoi({ poiId: poi.id }));
   }
 }
