@@ -15,4 +15,8 @@ export const appRoutes: Route[] = [
     pathMatch: 'full',
     redirectTo: 'tour',
   },
+  {
+    path: '**',
+    redirectTo: 'tour',
+  },
 ];
