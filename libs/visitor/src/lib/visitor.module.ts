@@ -9,6 +9,7 @@ import { MatListModule } from '@angular/material/list';
 import { RouterModule } from '@angular/router';
 import { PoiListComponent } from './poi-list/poi-list.component';
 import { PoiModule } from '@rm-company/poi';
+import { GoogleMapsModule } from '@angular/google-maps';
 
 @NgModule({
   imports: [
@@ -25,6 +26,7 @@ import { PoiModule } from '@rm-company/poi';
       },
     ]),
     PoiModule,
+    GoogleMapsModule,
   ],
   declarations: [VisitorComponent, PoiListComponent],
 })
