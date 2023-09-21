@@ -1,4 +1,19 @@
-# RmCompany
+# RmCompany 
+Project built Using Nx, NgRx, LocalStorage, Angular Libraries, Angular Material and Ng2-charts library.
+
+Created to see points of interest on a map as an user and see metricts regarding how many people have visited a POI in a chart as an admin 
+
+## Visitor: 
+  Allow users to select differents Points Of Interest from a sidebar and see their location in a component using Google Maps, also, if they click in the marker they will see more information about the POI and it will be saved as a visited.
+  ![Screenshot 2023-09-21 at 4 56 56 PM](https://github.com/RMJuanRuiz/Nx-Workpace-Angular-NgRx/assets/49765252/7baed459-d4e6-414e-b13e-8a43aa329e0e)
+
+## Admin:
+   Show to admins a chart where they can see the number of visits that a Point Of Interest have.
+![Screenshot 2023-09-21 at 4 57 40 PM](https://github.com/RMJuanRuiz/Nx-Workpace-Angular-NgRx/assets/49765252/3193fdc1-47ca-4952-b0a2-9520c75da921)
+
+![nx-project](https://github.com/RMJuanRuiz/Nx-Workpace-Angular-NgRx/assets/49765252/04c8d727-4a80-45c9-9a9b-c02ea6ece6c6)
+
+
 
 <a alt="Nx logo" href="https://nx.dev" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="45"></a>
 
