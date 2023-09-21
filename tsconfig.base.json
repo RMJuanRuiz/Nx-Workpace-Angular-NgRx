@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@rm-company/admin": ["libs/admin/src/index.ts"],
       "@rm-company/visitor": ["libs/visitor/src/index.ts"]
     }
   },
